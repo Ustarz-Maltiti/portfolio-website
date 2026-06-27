@@ -306,3 +306,61 @@ footer {
 .social-links a:hover {
   color: var(--gold);
 }
+/* MOBILE RESPONSIVE */
+@media (max-width: 768px) {
+  nav {
+    padding: 16px 24px;
+    flex-direction: column;
+    gap: 16px;
+  }
+
+  nav ul {
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  #hero {
+    flex-direction: column-reverse;
+    text-align: center;
+    padding: 100px 24px 60px;
+  }
+
+  .hero-image {
+    margin-left: 0;
+    margin-bottom: 30px;
+  }
+
+  .hero-image img {
+    width: 180px;
+    height: 180px;
+  }
+
+  #hero h1 {
+    font-size: 38px;
+  }
+
+  #hero h2 {
+    font-size: 18px;
+  }
+
+  .tagline {
+    font-size: 14px;
+  }
+
+  section {
+    padding: 60px 24px;
+  }
+
+  .section-title {
+    font-size: 30px;
+  }
+
+  .skills-grid {
+    justify-content: center;
+  }
+
+  .projects-grid {
+    grid-template-columns: 1fr;
+  }
+}
